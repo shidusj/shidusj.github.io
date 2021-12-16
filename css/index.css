@@ -3137,9 +3137,9 @@ blockquote footer cite:before {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  opacity: 1;
-  -ms-filter: none;
-  filter: none;
+  opacity: 0.3;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  filter: alpha(opacity=30);
 }
 #footer:before {
   position: absolute;
